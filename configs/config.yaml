@@ -1,0 +1,14 @@
+data:
+  root: "."
+  batch_size: 32
+
+model:
+  image_size: 32
+  patch_size: 4
+  embed_dim: 256
+  num_transformer_blocks: 6
+  num_heads: 4
+
+training:
+  epochs: 120
+  lr: 0.0001
